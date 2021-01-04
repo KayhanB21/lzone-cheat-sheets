@@ -1,3 +1,8 @@
+## My Handy Man
+
+    minikube ip
+    minikube stop 
+
 ## Starting a host
 
 Using VirtualBox so you have to specify VM details:
