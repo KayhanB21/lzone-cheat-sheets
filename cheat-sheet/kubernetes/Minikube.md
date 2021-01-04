@@ -2,6 +2,7 @@
 
     minikube ip
     minikube stop 
+    minikube dashboard
 
 ## Starting a host
 
