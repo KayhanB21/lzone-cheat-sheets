@@ -3,6 +3,7 @@
     minikube ip
     minikube stop 
     minikube dashboard
+    minikube delete
 
 ## Starting a host
 
