@@ -2,7 +2,12 @@
 related:
   cheat-sheet: ['Helm Templates', 'kubernetes', 'Openshift']
 ---
+## My Handy Man
 
+    helm upgrade --install [release_name] [repo_address]
+    helm delete [release_name] -n [namespace_name]
+    helm env
+    
 Note: this cheat sheet is now Helm3 only
 
 ## Setup
