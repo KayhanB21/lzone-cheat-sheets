@@ -15,6 +15,7 @@ has_children: true
     
     Others
     kubectl describe deployment [deployment_name] --namespace [namespace_name]       # get deployment detail
+    kubectl api-versions
     
 ## Handling multiple clusters
 
