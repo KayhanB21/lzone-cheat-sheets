@@ -3,6 +3,16 @@ parent: cheat-sheet
 title: kubernetes
 has_children: true
 ---
+## My Handy Man
+
+    kubectl config set-context --current --namespace=[namespace_name]               # Set the current kubectl namespace
+    
+    # Logs
+    kubectl logs [pod_name]
+    kubectl logs --since=1h [pod_name]
+    kubectl logs --tail=20 [pod_name]
+    kubectl logs -f -c [container_name] [pod_name]
+    
 ## Handling multiple clusters
 
     kubectl config view                    # Short list of clusters in ~/.kube/config
