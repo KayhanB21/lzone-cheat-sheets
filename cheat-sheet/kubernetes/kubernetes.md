@@ -7,11 +7,14 @@ has_children: true
 
     kubectl config set-context --current --namespace=[namespace_name]               # Set the current kubectl namespace
     
-    # Logs
+    Logs
     kubectl logs [pod_name]
     kubectl logs --since=1h [pod_name]
     kubectl logs --tail=20 [pod_name]
     kubectl logs -f -c [container_name] [pod_name]
+    
+    others
+    kubectl describe deployment [deployment_name] --namespace namespace_name]       # get deployment detail
     
 ## Handling multiple clusters
 
